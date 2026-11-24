@@ -99,6 +99,3 @@ c++ -std=c++17 -Isrc tests/physics_tests.cpp -o physics_tests
 
 For graphical smoke checks, `./build/can_you_score --smoke-test` automatically exercises shots, replay, practice with a wall, and a complete challenge; saves five PNG screenshots; and exits without writing a personal best.
 
-## Credits
-
-Game code and procedural artwork created for Mariam. raylib by Ramon Santamaria and contributors, distributed under the zlib/libpng license; see `vendor/raylib/LICENSE`. raylib's bundled dependencies retain their original notices.
